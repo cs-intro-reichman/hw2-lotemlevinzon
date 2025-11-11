@@ -10,7 +10,7 @@ public class Cheers {
         for (int i = 0; i < cheerUpperCase.length(); i++) {
                 char letter = cheerUpperCase.charAt(i);
                 if(anLetters.indexOf(letter) == -1) {
-                        System.out.println("Give me a " + cheerUpperCase.charAt(i) + ": " + cheerUpperCase.charAt(i) +"!");
+                        System.out.println("Give me  a " + cheerUpperCase.charAt(i) + ": " + cheerUpperCase.charAt(i) +"!");
                 } else {
                         System.out.println("Give me an " + cheerUpperCase.charAt(i) + ": " + cheerUpperCase.charAt(i) +"!");
                 }

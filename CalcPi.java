@@ -4,7 +4,7 @@ public class CalcPi {
 	    int numOfTerms = Integer.parseInt(args[0]);
 		int i = 1;
 		double sum = 1.0;
-		System.out.println("pi accoriding to java: " + Math.PI);
+		System.out.println("pi according to java: " + Math.PI);
 	 while (i < numOfTerms) {
 		if (i % 2 == 0) {
 			sum = sum + 1.0 / (2*i + 1);
